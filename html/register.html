@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/register.css">
+  </head>
+  <body>
+    <header class="menu">
+      <nav class="menu-nav">
+        <div class="logo-div">
+          <a class="logo-icon" href="main.html"><img class="logo-img"
+            src="../icons/menu_black_24dp.svg" alt="menu icon"></a>
+            <div class="logo-text">Logo</div>
+        </div>
+        <div class="search-div">
+          <form class="search" action="index.html" method="get">
+            <div class="search-field">
+              <input type="text" class="search-input" name="search-text" value="Search by item name">
+              <select class="search-select-field" name="search-select">
+                <option value="tags">tags</option>
+                <option value="name">name</option>
+              </select>
+            </div>
+          </form>
+        </div>
+        <div class="login-div">
+          <a href="checkout.html"><img
+            src="../icons/shopping_cart_black_24dp.svg" alt="shopping cart"></a>
+            <a class="login-text" href="login.html">Login</a>
+            <div class="login-text">
+              |
+            </div>
+            <a class="login-text" href="register.html">Sign up</a>
+        </div>
+      </nav>
+    </header>
+    <div class="register-page">
+      <div class="register-menu">
+        <header class="register-header">
+          <div class="header-text">
+            Register
+          </div>
+        </header>
+        <form class="register" action="index.html" method="post">
+          <div class="register-form">
+            <div class="register-field">
+              <label class="input-label" for="login">Login Name</label>
+              <input class="register-input" type="text" name="login" value="">
+            </div>
+            <div class="register-field">
+              <label class="input-label" for="name">First Name</label>
+              <input class="register-input" type="text" name="name" value="">
+            </div>
+            <div class="register-field">
+              <label class="input-label" for="password">Password</label>
+              <input class="register-input" type="text" name="password" value="">
+            </div>
+            <div class="register-field">
+              <label class="input-label" for="repeat-password">Repeat password</label>
+              <input class="register-input" type="text"
+              name="repeat-password" value="">
+            </div>
+            <div class="register-field">
+              <label class="input-label" for="email">Email</label>
+              <input class="register-input" type="text" name="email" value="">
+            </div>
+            <div class="register-field">
+              <label class="input-label" for="address">Address</label>
+              <input class="register-input" type="text" name="address" value="">
+            </div>
+          </div>
+          <button class="register-submit" type="submit" name="button">Sign Up</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

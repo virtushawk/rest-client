@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 20px 20px;
+}
+
+.register-page {
+  background-color: gainsboro;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+}
+
+.register-menu {
+  margin-top: 200px;
+  background: white;
+  height: 400px;
+  width: 700px;
+  flex-direction: column;
+  display: flex;
+  border: 3px solid #D6D9DC;
+  border-radius: 10px;
+}
+
+.register-header {
+  background-color: gray;
+  height: 50px;
+}
+
+.header-text {
+  color: white;
+  font-size: 20px;
+  margin: 13px 20px;
+}
+
+.register {
+  display: flex;
+  flex-direction: column;
+}
+
+.register-form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.register-field {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 10px;
+}
+
+.register-input {
+  height: 40px;
+  width: 300px;
+  border: 1px solid #D6D9DC;
+  border-radius: 3px;
+}
+
+.input-label {
+  color: gray;
+  margin-bottom: 10px;
+}
+
+.register-submit {
+  height: 40px;
+  width: 200px;
+  color: white;
+  font-size: 19px;
+  border: none;
+  background-color: mediumseagreen;
+  align-self: flex-end;
+  margin: 10px 37px;
+}
