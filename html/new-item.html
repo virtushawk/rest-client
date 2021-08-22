@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/new-item.css">
+  </head>
+  <body>
+    <header class="menu">
+      <nav class="menu-nav">
+        <div class="logo-div">
+          <a class="logo-icon" href="main.html"><img class="logo-img"
+            src="../icons/menu_black_24dp.svg" alt="menu icon"></a>
+            <div class="logo-text">Logo</div>
+        </div>
+        <div class="search-div">
+          <form class="search" action="index.html" method="get">
+            <div class="search-field">
+              <input type="text" class="search-input" name="search-text" value="Search by item name">
+              <select class="search-select-field" name="search-select">
+                <option value="tags">tags</option>
+                <option value="name">name</option>
+              </select>
+            </div>
+          </form>
+        </div>
+        <div class="login-div">
+          <a href="checkout.html"><img
+            src="../icons/shopping_cart_black_24dp.svg" alt="shopping cart"></a>
+            <a class="login-text" href="login.html">Login</a>
+            <div class="login-text">
+              |
+            </div>
+            <a class="login-text" href="register.html">Sign up</a>
+        </div>
+      </nav>
+    </header>
+    <div class="new-item-page">
+      <header class="new-item-header">
+        <div class="header-text">
+          Add new Coupon
+        </div>
+      </header>
+      <form class="form" action="index.html" method="post">
+        <div class="new-item-form">
+          <div class="new-item">
+            <label class="input-label" for="company">Company</label>
+            <input class="new-item-input" type="text" name="company" value="">
+          </div>
+          <div class="new-item">
+            <label class="input-label" for="name">Item Name</label>
+            <input class="new-item-input" type="text" name="name" value="">
+          </div>
+          <div class="new-item">
+            <label class="input-label" for="category">Category</label>
+            <select class="new-item-input" name="category">
+              <option value="Category name">Category Name</option>
+            </select>
+            </div>
+            <div class="new-item">
+              <label class="input-label" for="sdescription">Short description</label>
+              <textarea class="new-item-input" name="sdescription"></textarea>
+            </div>
+            <div class="new-item">
+              <label class="input-label" for="date">Valid to</label>
+              <input class="new-item-input" type="date" name="date" value="">
+            </div>
+            <div class="new-item">
+              <label class="input-label" for="ldescription">Long description</label>
+              <textarea class="new-item-input" name="ldescription"></textarea>
+            </div>
+            <div class="new-item">
+              <label class="input-label" for="price">Price</label>
+              <input class="new-item-input" type="text" name="price" value="">
+            </div>
+            <div class="new-item">
+              <label class="input-label" for="images">Images</label>
+              <input class="new-item-input" type="file" name="images" value="">
+            </div>
+        </div>
+        <div class="form-button">
+          <a href="main.html"><button class="new-item-cancel" type="button"
+            name="button">Back</button></a>
+            <button class="new-item-submit" type="submit" name="button">Save</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
