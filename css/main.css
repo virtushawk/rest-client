@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 20px 20px;
+}
+
+.login-page {
+  background-color: gainsboro;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+}
+
+.main-header {
+  height: 120px;
+  background-color: darkgray;
+}
+
+.main-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.category-item {
+  margin: 30px 40px;
+}
+
+.photo-div {
+  background-color: white;
+  height: 50px;
+  width: 60px;
+}
+
+.photo-label {
+  margin-top: 5px;
+}
+
+.main-div {
+  background-color: gainsboro;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.item {
+  margin: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 250px;
+  background-color: white;
+}
+
+.item-photo {
+  background-color: darkgray;
+  height: 150px;
+}
+
+.item-name {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  margin: 10px 10px;
+}
+
+.item-descrption {
+  display: flex;
+  margin: 5px 5px;
+}
+
+.item-text {
+  color: black;
+  font-size: 13px;
+  align-self: flex-start;
+}
+
+.item-date {
+  color: gray;
+  font-size: 10px;
+  align-self: flex-end;
+}
+
+.item-price {
+  display: flex;
+}
+
+.item-price-text {
+  color: black;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.item-button {
+  margin-left: 70px;
+  margin-right: 10px;
+  align-self: flex-end;
+  border: 1px solid #D6D9DC;
+  background-color: white;
+  color: black;
+}
