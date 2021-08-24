@@ -7,32 +7,35 @@
     <link rel="stylesheet" href="../css/item.css">
   </head>
   <body>
-    <header class="menu">
-      <nav class="menu-nav">
-        <div class="logo-div">
-          <a class="logo-icon" href="main.html"><img class="logo-img"
+    <header>
+      <nav class="nav">
+        <div class="nav__logo">
+          <a class="nav__logo__icon" href="main.html">
+            <img class="nav__logo__icon__img"
             src="../icons/menu_black_24dp.svg" alt="menu icon"></a>
-            <div class="logo-text">Logo</div>
+            <div class="nav__logo__text">Logo</div>
         </div>
-        <div class="search-div">
-          <form class="search" action="index.html" method="get">
-            <div class="search-field">
-              <input type="text" class="search-input" name="search-text" value="Search by item name">
-              <select class="search-select-field" name="search-select">
+          <form class="nav__search" action="index.html" method="get">
+              <input type="text" class="nav__search__input
+              nav__search__input--theme-simple" name="search-text"
+              value="Search by item name">
+              <select class="nav__search__select
+              nav__search__select--theme-simple" name="search-select">
                 <option value="tags">tags</option>
                 <option value="name">name</option>
               </select>
-            </div>
           </form>
-        </div>
-        <div class="login-div">
-          <a href="checkout.html"><img
+        <div class="nav__login">
+          <a class="nav__login__checkout" href="checkout.html"><img
+            class="nav__login__checkout__icon"
             src="../icons/shopping_cart_black_24dp.svg" alt="shopping cart"></a>
-            <a class="login-text" href="login.html">Login</a>
-            <div class="login-text">
+            <a class="nav__login__text nav__login__text--theme-simple"
+            href="login.html">Login</a>
+            <div class="nav__login__text nav__login__text--theme-simple">
               |
             </div>
-            <a class="login-text" href="register.html">Sign up</a>
+            <a class="nav__login__text nav__login__text--theme-simple"
+             href="register.html">Sign up</a>
         </div>
       </nav>
     </header>
@@ -77,7 +80,7 @@
           purus, id vestibulum turpis tellus fringilla neque. Ut nec nulla id
           ante tincidunt vestibulum sed sed ligula. Fusce justo libero, molestie
            vitae semper in, venenatis eget orci. Fusce in mi luctus, auctor
-           velit sed, tincidunt augue. Vestibulum ornare mi at finibus pulvinar. 
+           velit sed, tincidunt augue. Vestibulum ornare mi at finibus pulvinar.
         </div>
       </div>
         </div>
