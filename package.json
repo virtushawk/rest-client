@@ -1,0 +1,27 @@
+{
+  "scripts": {
+    "test": "jest"
+  },
+  "name": "rest-client",
+  "description": "a client for rest certificate application",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "jest": "^27.0.6",
+    "jest-each": "^27.0.6"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/virtushawk/rest-client.git"
+  },
+  "author": "Roman Brukhanchik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/virtushawk/rest-client/issues"
+  },
+  "homepage": "https://github.com/virtushawk/rest-client#readme"
+}
